@@ -66,7 +66,7 @@ Los agentes mantienen el comportamiento **determinista basado en reglas** del pr
 | Terminal como cliente A2A | `src/cli.js` y `src/a2a-client.js`, SDK A2A oficial |
 | Logs del servidor MCP por ejecución | Eventos JSON `tool.start`, `tool.end` y `tool.error` |
 | Logs del servidor A2A | `message.received`, `agent.delegate`, `message.completed` y `message.error` |
-| Video y repositorio | [Guion del video](docs/VIDEO.md) e instrucciones de publicación al final |
+| Video y repositorio | [Video de demostración](https://youtu.be/SubgKwZHeBw) y enlace del repositorio al final |
 
 La hoja exige herramientas MCP. No exige publicar prompts ni recursos, por lo que el servidor anuncia únicamente las dos herramientas usadas por los agentes.
 
@@ -114,12 +114,13 @@ src/
   log.js              Logs JSON con fecha UTC y servicio
   runtime.js          Inicio y cierre de servidores
 test/protocols.test.js Pruebas de integración
-docs/VIDEO.md         Guion para grabar la entrega
 ```
 
 ## Repositorio y entrega
 
 Repositorio: [J05U3oAr/HDT-7-IA](https://github.com/J05U3oAr/HDT-7-IA).
+
+Video de demostración: [Ver video de la HDT 7](https://youtu.be/SubgKwZHeBw).
 
 Para obtener el proyecto en otro equipo:
 
@@ -130,7 +131,7 @@ npm.cmd ci
 npm.cmd test
 ```
 
-El `.gitignore` excluye dependencias, caché, logs y archivos `.env`. Entrega el enlace del repositorio y el video solicitado. El guion está en `docs/VIDEO.md`; queda pendiente grabar el video y adjuntar su enlace a la entrega.
+El `.gitignore` excluye dependencias, caché, logs y archivos `.env`. Los enlaces del repositorio y del video están disponibles arriba para la entrega.
 
 ## Referencias oficiales
 
